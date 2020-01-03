@@ -1,0 +1,35 @@
+--------------------------(Django Setup)------------------------
+1) -->pip install virtualenvwrapper-win
+   #For upgrade the pip --- >python -m pip install --upgrade pip
+
+2) To make the inviroment
+  -->mkvirtualenv test
+
+3) To install django
+  -->pip install django
+
+4) to check djengo version
+  -->django-admin --version
+---------------------------------------------------
+
+# Create a folder for worke
+  -->mkdir projects
+# Go to that folder directory
+  -->cd projects
+--------------------------------------------------------
+
+# Make a django project in that project folder
+  -->django-admin startproject firstproject
+
+# Change the directory again
+  -->cd firstproject
+
+# To see the containers in that directory
+  -->dir
+
+------------------------------------------------------
+
+# Get server for your wesite ( django provide litewight server )
+to access that server -->python manage.py runserver
+
+goto the server ip open a browser and type 127.0.0.1:8000 in address
